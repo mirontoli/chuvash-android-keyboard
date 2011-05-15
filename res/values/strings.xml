@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AnySoftKeyboard - Belarusian Language Pack</string>
-    <string name="be_cyrillic_keyboard">Belarusian cyrillic</string>
-    <string name="be_latin_keyboard">Belarusian latin</string>
+    <string name="app_name">AnySoftKeyboard - Chuvash Language Pack</string>
+    <string name="cv_cyrillic_keyboard">Chuvash Cyrillic</string>
+    <string name="cv_latin_keyboard">Chuvash Latin</string>
 </resources>
