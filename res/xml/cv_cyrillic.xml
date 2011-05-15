@@ -7,50 +7,56 @@
     android:keyHeight="@dimen/key_height"
     >
 
-    <Row android:keyWidth="8.33%p">
-    <!-- йцукенгшўзх' -->
-        <Key android:codes="0x0439" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x0446" android:keyLabel=""/>
-        <Key android:codes="0x0443" android:keyLabel=""/>
-        <Key android:codes="0x043A" android:keyLabel=""/>
-        <Key android:codes="0x0435" android:keyLabel=""/>
-        <Key android:codes="0x043D" android:keyLabel=""/>
-        <Key android:codes="0x0433" android:keyLabel=""/>
-        <Key android:codes="0x0448" android:keyLabel=""/>
-        <Key android:codes="0x045E" android:keyLabel=""/>
-        <Key android:codes="0x0437" android:keyLabel=""/>
-        <Key android:codes="0x0445" android:keyLabel=""/>
-        <Key android:codes="0x0027" android:keyLabel="'" android:keyEdgeFlags="right"/>
+    <Row android:keyWidth="7.9%p"><!-- was: 8.33%p -->
+    <!-- &#1081;&#1094;&#1091;&#0255;&#1082;&#1077;&#0277;&#1085;&#1075;&#1096;&#1097;&#1079;&#1093;&#1098; -->
+    <!-- йцуÿкеĕнгшщзхъ   -->
+        <Key android:codes="1081" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="1094" android:keyLabel=""/>
+        <Key android:codes="1091" android:keyLabel=""/>
+        <Key android:codes="0255" android:keyLabel=""/> <!-- &yuml 0255-->
+        <Key android:codes="1082" android:keyLabel=""/>
+        <Key android:codes="1077" android:keyLabel=""/>
+        <Key android:codes="0277" android:keyLabel=""/> <!-- ebreve -->
+        <Key android:codes="1085" android:keyLabel=""/>
+        <Key android:codes="1075" android:keyLabel=""/>
+        <Key android:codes="1096" android:keyLabel=""/>
+        <Key android:codes="1097" android:keyLabel=""/>
+        <Key android:codes="1079" android:keyLabel=""/>
+        <Key android:codes="1093" android:keyLabel=""/>
+        <Key android:codes="1098" android:keyLabel="" android:keyEdgeFlags="right"/>
     </Row>
     
-    <Row android:keyWidth="8.33%p">
-    <!-- фывапролджэ -->
-        <Key android:codes="0x0444" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x044B" android:keyLabel=""/>
-        <Key android:codes="0x0432" android:keyLabel=""/>
-        <Key android:codes="0x0430" android:keyLabel=""/>
-        <Key android:codes="0x043F" android:keyLabel=""/>
-        <Key android:codes="0x0440" android:keyLabel=""/>
-        <Key android:codes="0x043E" android:keyLabel=""/>
-        <Key android:codes="0x043B" android:keyLabel=""/>
-        <Key android:codes="0x0434" android:keyLabel=""/>
-        <Key android:codes="0x0436" android:keyLabel=""/>
-        <Key android:codes="0x044D" android:keyLabel=""/>
-        <Key android:codes="0x0451" android:keyLabel="" android:keyEdgeFlags="right"/>
+    <Row android:keyWidth="8.33%p"><!-- was 9.09 -->
+    <!-- &#1092;&#1099;&#1074;&#0259;&#1072;&#1087;&#1088;&#1086;&#1083;&#1076;&#1078;&#1101; -->
+    <!-- фываăпролджэ  -->
+        <Key android:codes="1092" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="1099" android:keyLabel=""/>
+        <Key android:codes="1074" android:keyLabel=""/>
+        <Key android:codes="1072" android:keyLabel=""/>
+        <Key android:codes="0259" android:keyLabel=""/> <!-- a breve 0259 -->
+        <Key android:codes="1087" android:keyLabel=""/>
+        <Key android:codes="1088" android:keyLabel=""/>
+        <Key android:codes="1086" android:keyLabel=""/>
+        <Key android:codes="1083" android:keyLabel=""/>
+        <Key android:codes="1076" android:keyLabel=""/>
+        <Key android:codes="1078" android:keyLabel=""/>
+        <Key android:codes="1101" android:keyLabel="" android:keyEdgeFlags="right"/>
     </Row>
     
-    <Row android:keyWidth="9.09%p">
-    <!-- ячсмітьбю -->
+    <Row android:keyWidth="8.33%p"> <!--  was 9.09 -->
+    <!-- &#1103;&#1095;&#1089;&#0231;&#1084;&#1080;&#1090;&#1100;&#1073;&#1102; -->
+    <!-- ячсçмитьбю  -->
     	<Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x044F" android:keyLabel=""/>
-        <Key android:codes="0x0447" android:keyLabel=""/>
-        <Key android:codes="0x0441" android:keyLabel=""/>
-        <Key android:codes="0x043C" android:keyLabel=""/>
-        <Key android:codes="0x0456" android:keyLabel=""/>
-        <Key android:codes="0x0442" android:keyLabel=""/>
-        <Key android:codes="0x044C" android:keyLabel=""/>
-        <Key android:codes="0x0431" android:keyLabel=""/>
-        <Key android:codes="0x044E" android:keyLabel=""/>
+        <Key android:codes="1103" android:keyLabel=""/>
+        <Key android:codes="1095" android:keyLabel=""/>
+        <Key android:codes="1089" android:keyLabel=""/>
+        <Key android:codes="0231" android:keyLabel=""/><!-- ccedile cv 0231-->
+        <Key android:codes="1084" android:keyLabel=""/>
+        <Key android:codes="1080" android:keyLabel=""/>
+        <Key android:codes="1090" android:keyLabel=""/>
+        <Key android:codes="1100" android:keyLabel=""/>
+        <Key android:codes="1073" android:keyLabel=""/>
+        <Key android:codes="1102" android:keyLabel=""/>
         <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
 </Keyboard>
