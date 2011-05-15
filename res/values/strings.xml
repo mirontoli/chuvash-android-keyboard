@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnySoftKeyboard - Belarusian Language Pack</string>
+    <string name="be_cyrillic_keyboard">Belarusian cyrillic</string>
+    <string name="be_latin_keyboard">Belarusian latin</string>
+</resources>
