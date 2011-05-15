@@ -13,13 +13,13 @@
 				layoutResId="@xml/cv_cyrillic" 
 				id="733ca6bf-64cf-4233-9bad-e125867b2031" 
 				description="Created by A Chuvash Guy" 
-				index="1" 
-				physicalKeyboardMappingResId="@xml/cyrillic_physical"/>
+				index="1"
+				defaultDictionaryLocale="cv"/>
 	<Keyboard nameResId="@string/cv_latin_keyboard" 
 				iconResId="@drawable/cv_latin" 
 				layoutResId="@xml/cv_latin" 
 				id="99943e01-5aee-4002-9f82-f8d020fb9133" 
 				description="Created by A Chuvash Guy" 
 				index="2" 
-				physicalKeyboardMappingResId="@xml/latin_physical"/>
+				defaultDictionaryLocale="cv"/>
 </Keyboards>
